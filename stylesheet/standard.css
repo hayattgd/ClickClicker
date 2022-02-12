@@ -1,3 +1,22 @@
+html, body, p, a, img, header {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
     background-color: rgb(163, 186, 204);
+}
+
+header {
+  height: 50px;
+  background-color: rgb(89, 89, 89);
+}
+
+.header_content {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+
+  padding: 4px;
+  margin: 0px;
 }
