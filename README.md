@@ -1,2 +1,2 @@
 # ClickClicker
-just make a pages.
+Take a Code here for make page.
