@@ -1,5 +1,5 @@
 # ClickClicker
-Take a Code here for make page.
+i take a pages here.
 
 so this is javascript web game.
 
