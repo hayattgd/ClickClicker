@@ -1,4 +1,4 @@
-html, body, p, a, img, header {
+body,html,p,a,h1,h2,h3,h4,h5,h6,div,header,main,footer,img,canvas,input,textarea {
   margin: 0px;
   padding: 0px;
 }
@@ -20,3 +20,15 @@ header {
   padding: 4px;
   margin: 0px;
 }
+
+main {
+  margin-top: 22%;
+  margin-left: 50%;
+}
+
+.Click {
+  image-rendering: pixelated;
+  width: 65px;
+  cursor: pointer;
+}
+
