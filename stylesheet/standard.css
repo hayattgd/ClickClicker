@@ -32,8 +32,11 @@ main {
   cursor: pointer;
 }
 
-.Counter {
+.Counter_text, .Counter {
   font-weight: bold;
   font-size: 25px;
+}
+
+footer {
   text-align: center;
 }
