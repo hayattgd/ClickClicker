@@ -1,6 +1,7 @@
 let point = 0
-let counter = document.getElementById("Counter")
+let counter = document.getElementsByClassName("Counter")
 
 function onClick() {
-  alert("hello")
+  point += 1
+  counter[0].innerHTML = "POINTS:" + point.toString()
 }

@@ -23,7 +23,7 @@ header {
 
 main {
   margin-top: 22%;
-  margin-left: 50%;
+  text-align: center;
 }
 
 .Click {
@@ -32,3 +32,8 @@ main {
   cursor: pointer;
 }
 
+.Counter {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
