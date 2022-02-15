@@ -48,10 +48,17 @@ footer {
   background-color: #454545;
   float: left;
   padding: 5px;
+  width: 290px;
 }
 
-#upgrade {
-  width: 290px;
+.upgrade_req, .upgrade_current {
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #FFFFFF;
+}
+
+.upgrade {
+  width: 280px;
 }
 
 .sidebar_title {
@@ -59,4 +66,8 @@ footer {
   background-color: white;
   margin-left: 45px;
   margin-right: 45px;
+}
+
+.Upgrade_Box {
+  border: 5px solid rgb(43, 43, 43);
 }

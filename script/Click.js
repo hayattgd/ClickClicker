@@ -18,6 +18,10 @@ function onClick() {
 
 function refresh() {
   counter[0].innerHTML = point.toString()
+  for (let index = 0; index < upgrade_count; index++) {
+    document.getElementsByClassName("upgrade_req")[index].innerHTML = "req:" + upgrade_cost[index] * upgrades[index]
+    document.getElementsByClassName("upgrade_current")[index].innerHTML = "current:" + upgrades[index]
+  }
 }
 
 function Upgrade(id) {
